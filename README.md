@@ -11,4 +11,4 @@ The user of the application creates a certain number of VBD objects (sending dev
 • when the application is closed, a binary file is created representing information about each VBD and the message that was sent. <br />
 #
 
-#Wanring! The interface layout is not fully implemented yet.
+# Wanring! The interface layout is not fully implemented yet.
