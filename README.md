@@ -1,5 +1,5 @@
 # GSM-simulation-Java
-Multithreaded application which simulates the work of the Global System for Mobile Communications using Java and Swing.
+Multithreaded application which simulates the work of the Global System for Mobile Communications written using Java and Swing.
 
 # Application operation
 The user of the application creates a certain number of VBD objects (sending devices), each of which is a separate thread and immediately starts transmitting the message entered during creation. As according to the standard, each SMS has the encoded sender and recipient numbers along with the message, a random VRD element is chosen as the recipient. The created SMS is passed to the BTS station with the least number of waiting SMSs.The application in its running state has three layers. There is always at least one intermediate layer of BSC controllers between the input layer and the output layer. The number of intermediate layers depends on the user’s actions in the application, who can add or remove a layer using the keys. Each newly created communication layer will be created with one BSC, while removing a layer will result in no longer accepting messages by that layer and immediately passing messages from all BSCs, skipping the transmission timers.
