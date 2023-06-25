@@ -11,6 +11,7 @@ The user of the application creates a certain number of VBD objects (sending dev
 <li>the messages are transmitted in the form of PDU including encoded sender, recipient and the message itself.</li>
 <li>when the application is closed, a binary file is created representing information about each VBD and the message that was sent. </li>
 </ul>
+
 #
 
 # Wanring! The interface layout is not fully implemented yet.
